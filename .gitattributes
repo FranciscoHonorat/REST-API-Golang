@@ -1,0 +1,27 @@
+# Normaliza finais de linha para LF no repositório
+* text=auto eol=lf
+
+# Go source files
+*.go text eol=lf
+
+# Shell scripts sempre LF (necessário para Docker/Linux)
+*.sh text eol=lf
+
+# Dockerfiles sempre LF
+Dockerfile text eol=lf
+docker-compose.yaml text eol=lf
+compose.yaml text eol=lf
+
+# YAML/JSON/SQL sempre LF
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# Binários — não alterar
+*.exe binary
+*.dll binary
+*.so binary
