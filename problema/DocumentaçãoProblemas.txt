@@ -1,0 +1,47 @@
+toda vez que faço um curl http://localhost:8080/books
+retorna 200 
+e  []
+
+ou seja a query do sql não consegue retornar os livros... onde será que stá o erro!
+
+2026/05/17 17:37:31 Request received:  GET /books
+[Debug] Calling ListBooks with pagination: page=%d, limit=%d 1 10
+[DEBUG LIST] FiltersAuthor='', FiltersYear=0, FiltersMasterpiece=false, Page=1, Limit=10, SortBy='title'[DEBUG LIST] Query returned 0 books
+%!(EXTRA <nil>)[DEBUG] Return service: books=%d, err=%v
+ 0 <nil>
+[DEBUG] Returning 0 books
+2026/05/17 17:37:31 Response sent:  200 Duration:  3.0551ms
+[GIN] 2026/05/17 - 17:37:31 | 200 |   3.05ms |             ::1 | GET      "/books"
+
+acredito que seja pelo fato do FilterAuthor='', FilterYear=0, FilterMasterpiece=false... Quando não a filtro ele ta retornando valores vazios e não null
+
+na query SQL fica verificando: (CASE WHEN $1::text IS NOT NULL THEN author = $1 ELSE true END)
+
+Para resolver foi preciso mudar a struct da queries.sql.go:
+
+type ListBooksParams struct {
+	FilterAuthor      *string `json:"filter_author"`
+	FilterYear        *int32  `json:"filter_year"`
+	FilterMasterpiece *bool   `json:"filter_masterpiece"`
+	SortBy            string  `json:"sort_by"`
+	PageOffset        int32   `json:"page_offset"`
+	PageLimit         int32   `json:"page_limit"`
+}
+
+depois mudar o book_repo.go da infra para esses valores:
+
+	if filters.Author != nil {
+		params.FilterAuthor = filters.Author
+	}
+
+	//If there is a year filter, add it.
+	if filters.Year != nil {
+		params.FilterYear = filters.Year
+	}
+
+	// If there is a masterpiece filter, add it.
+	if filters.Masterpiece != nil {
+		params.FilterMasterpiece = filters.Masterpiece
+	}
+
+Com essas mudanças o problema foi resolvido!

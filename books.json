@@ -1,0 +1,627 @@
+
+[
+  {
+    "name": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "masterpiece": true
+  },
+  {
+    "name": "O Alquimista",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "masterpiece": false
+  },
+  {
+    "name": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "masterpiece": true
+  },
+  {
+    "name": "Ensaio Sobre a Cegueira",
+    "author": "José Saramago",
+    "year": 1995,
+    "masterpiece": false
+  },
+  {
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "masterpiece": false
+  },
+  {
+    "name": "Ficciones",
+    "author": "Jorge Luis Borges",
+    "year": 1944,
+    "masterpiece": false
+  },
+  {
+    "name": "O Primo Basílio",
+    "author": "José Maria de Eça de Queirós",
+    "year": 1878,
+    "masterpiece": false
+  },
+  {
+    "name": "Rayuela",
+    "author": "Julio Cortázar",
+    "year": 1963,
+    "masterpiece": false
+  },
+  {
+    "name": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "masterpiece": true
+  },
+  {
+    "name": "Dom Casmurro",
+    "author": "Machado de Assis",
+    "year": 1899,
+    "masterpiece": false
+  },
+  {
+    "name": "Pedro Páramo",
+    "author": "Juan Rulfo",
+    "year": 1955,
+    "masterpiece": false
+  },
+  {
+    "name": "Capitães da Areia",
+    "author": "Jorge Amado",
+    "year": 1937,
+    "masterpiece": false
+  },
+  {
+    "name": "Ulysses",
+    "author": "James Joyce",
+    "year": 1922,
+    "masterpiece": true
+  },
+  {
+    "name": "La ciudad y los perros",
+    "author": "Mario Vargas Llosa",
+    "year": 1963,
+    "masterpiece": false
+  },
+  {
+    "name": "A Hora da Estrela",
+    "author": "Clarice Lispector",
+    "year": 1977,
+    "masterpiece": false
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "masterpiece": true
+  },
+  {
+    "name": "Crónica de una muerte anunciada",
+    "author": "Gabriel García Márquez",
+    "year": 1981,
+    "masterpiece": false
+  },
+  {
+    "name": "Grande Sertão: Veredas",
+    "author": "João Guimarães Rosa",
+    "year": 1956,
+    "masterpiece": false
+  },
+  {
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "masterpiece": false
+  },
+  {
+    "name": "Como agua para chocolate",
+    "author": "Laura Esquivel",
+    "year": 1989,
+    "masterpiece": false
+  },
+  {
+    "name": "Memorial do Convento",
+    "author": "José Saramago",
+    "year": 1982,
+    "masterpiece": false
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "masterpiece": false
+  },
+  {
+    "name": "La sombra del viento",
+    "author": "Carlos Ruiz Zafón",
+    "year": 2001,
+    "masterpiece": false
+  },
+  {
+    "name": "Memórias Póstumas de Brás Cubas",
+    "author": "Machado de Assis",
+    "year": 1881,
+    "masterpiece": false
+  },
+  {
+    "name": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "masterpiece": true
+  },
+  {
+    "name": "El túnel",
+    "author": "Ernesto Sabato",
+    "year": 1948,
+    "masterpiece": false
+  },
+  {
+    "name": "O Cortiço",
+    "author": "Aluísio Azevedo",
+    "year": 1890,
+    "masterpiece": false
+  },
+  {
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "masterpiece": true
+  },
+  {
+    "name": "2666",
+    "author": "Roberto Bolaño",
+    "year": 2004,
+    "masterpiece": false
+  },
+  {
+    "name": "O Guarani",
+    "author": "José de Alencar",
+    "year": 1857,
+    "masterpiece": false
+  },
+  {
+    "name": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "masterpiece": true
+  },
+  {
+    "name": "Los pasos perdidos",
+    "author": "Alejo Carpentier",
+    "year": 1953,
+    "masterpiece": false
+  },
+  {
+    "name": "Vidas Secas",
+    "author": "Graciliano Ramos",
+    "year": 1938,
+    "masterpiece": false
+  },
+  {
+    "name": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "year": 1952,
+    "masterpiece": false
+  },
+  {
+    "name": "Santa Evita",
+    "author": "Tomás Eloy Martínez",
+    "year": 1995,
+    "masterpiece": false
+  },
+  {
+    "name": "Quincas Borba",
+    "author": "Machado de Assis",
+    "year": 1891,
+    "masterpiece": false
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "author": "Ken Kesey",
+    "year": 1962,
+    "masterpiece": false
+  },
+  {
+    "name": "La tregua",
+    "author": "Mario Benedetti",
+    "year": 1960,
+    "masterpiece": false
+  },
+  {
+    "name": "Auto da Barca do Inferno",
+    "author": "Gil Vicente",
+    "year": 1517,
+    "masterpiece": false
+  },
+  {
+    "name": "The Stranger",
+    "author": "Albert Camus",
+    "year": 1942,
+    "masterpiece": false
+  },
+  {
+    "name": "El Aleph",
+    "author": "Jorge Luis Borges",
+    "year": 1949,
+    "masterpiece": false
+  },
+  {
+    "name": "Tieta do Agreste",
+    "author": "Jorge Amado",
+    "year": 1977,
+    "masterpiece": false
+  },
+  {
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "masterpiece": false
+  },
+  {
+    "name": "Doña Bárbara",
+    "author": "Rómulo Gallegos",
+    "year": 1929,
+    "masterpiece": false
+  },
+  {
+    "name": "Os Maias",
+    "author": "José Maria de Eça de Queirós",
+    "year": 1888,
+    "masterpiece": false
+  },
+  {
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "masterpiece": false
+  },
+  {
+    "name": "Aura",
+    "author": "Carlos Fuentes",
+    "year": 1962,
+    "masterpiece": false
+  },
+  {
+    "name": "Menino do Engenho",
+    "author": "José Lins do Rego",
+    "year": 1932,
+    "masterpiece": false
+  },
+  {
+    "name": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "masterpiece": false
+  },
+  {
+    "name": "El amor en los tiempos del cólera",
+    "author": "Gabriel García Márquez",
+    "year": 1985,
+    "masterpiece": false
+  },
+  {
+    "name": "O Cortiço",
+    "author": "Aluísio Azevedo",
+    "year": 1890,
+    "masterpiece": false
+  },
+  {
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "masterpiece": false
+  },
+  {
+    "name": "La colmena",
+    "author": "Camilo José Cela",
+    "year": 1951,
+    "masterpiece": false
+  },
+  {
+    "name": "Iracema",
+    "author": "José de Alencar",
+    "year": 1865,
+    "masterpiece": false
+  },
+  {
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "masterpiece": false
+  },
+  {
+    "name": "La muerte de Artemio Cruz",
+    "author": "Carlos Fuentes",
+    "year": 1962,
+    "masterpiece": false
+  },
+  {
+    "name": "São Bernardo",
+    "author": "Graciliano Ramos",
+    "year": 1934,
+    "masterpiece": false
+  },
+  {
+    "name": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": 1915,
+    "masterpiece": false
+  },
+  {
+    "name": "Sobre héroes y tumbas",
+    "author": "Ernesto Sabato",
+    "year": 1961,
+    "masterpiece": false
+  },
+  {
+    "name": "O Alienista",
+    "author": "Machado de Assis",
+    "year": 1882,
+    "masterpiece": false
+  },
+  {
+    "name": "Lolita",
+    "author": "Vladimir Nabokov",
+    "year": 1955,
+    "masterpiece": false
+  },
+  {
+    "name": "La fiesta del Chivo",
+    "author": "Mario Vargas Llosa",
+    "year": 2000,
+    "masterpiece": false
+  },
+  {
+    "name": "Gabriela, Cravo e Canela",
+    "author": "Jorge Amado",
+    "year": 1958,
+    "masterpiece": false
+  },
+  {
+    "name": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "masterpiece": false
+  },
+  {
+    "name": "Los detectives salvajes",
+    "author": "Roberto Bolaño",
+    "year": 1998,
+    "masterpiece": false
+  },
+  {
+    "name": "O Ateneu",
+    "author": "Raul Pompeia",
+    "year": 1888,
+    "masterpiece": false
+  },
+  {
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "masterpiece": false
+  },
+  {
+    "name": "Crónica de una muerte anunciada",
+    "author": "Gabriel García Márquez",
+    "year": 1981,
+    "masterpiece": false
+  },
+  {
+    "name": "Claro Enigma",
+    "author": "Carlos Drummond de Andrade",
+    "year": 1951,
+    "masterpiece": false
+  },
+  {
+    "name": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "year": 1880,
+    "masterpiece": true
+  },
+  {
+    "name": "Bom-Crioulo",
+    "author": "Adolfo Caminha",
+    "year": 1895,
+    "masterpiece": false
+  },
+  {
+    "name": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "year": 1913,
+    "masterpiece": false
+  },
+  {
+    "name": "Relato de un náufrago",
+    "author": "Gabriel García Márquez",
+    "year": 1955,
+    "masterpiece": false
+  },
+  {
+    "name": "Lucíola",
+    "author": "José de Alencar",
+    "year": 1862,
+    "masterpiece": false
+  },
+  {
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "masterpiece": false
+  },
+  {
+    "name": "Niebla",
+    "author": "Miguel de Unamuno",
+    "year": 1914,
+    "masterpiece": false
+  },
+  {
+    "name": "Mayombe",
+    "author": "Pepetela",
+    "year": 1980,
+    "masterpiece": false
+  },
+  {
+    "name": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "year": 1856,
+    "masterpiece": false
+  },
+  {
+    "name": "Terra Nostra",
+    "author": "Carlos Fuentes",
+    "year": 1975,
+    "masterpiece": false
+  },
+  {
+    "name": "O Tempo e o Vento",
+    "author": "Erico Verissimo",
+    "year": 1949,
+    "masterpiece": false
+  },
+  {
+    "name": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "masterpiece": false
+  },
+  {
+    "name": "Pantaleón y las visitadoras",
+    "author": "Mario Vargas Llosa",
+    "year": 1973,
+    "masterpiece": false
+  },
+  {
+    "name": "A Relíquia",
+    "author": "Eça de Queirós",
+    "year": 1887,
+    "masterpiece": false
+  },
+  {
+    "name": "Catch-22",
+    "author": "Joseph Heller",
+    "year": 1961,
+    "masterpiece": false
+  },
+  {
+    "name": "El siglo de las luces",
+    "author": "Alejo Carpentier",
+    "year": 1962,
+    "masterpiece": false
+  },
+  {
+    "name": "O Continente",
+    "author": "Erico Verissimo",
+    "year": 1949,
+    "masterpiece": false
+  },
+  {
+    "name": "Don Juan Tenorio",
+    "author": "José Zorrilla",
+    "year": 1844,
+    "masterpiece": false
+  },
+  {
+    "name": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "masterpiece": true
+  },
+  {
+    "name": "La vida es sueño",
+    "author": "Pedro Calderón de la Barca",
+    "year": 1635,
+    "masterpiece": false
+  },
+  {
+    "name": "Os Lusiadas",
+    "author": "Luís de Camões",
+    "year": 1572,
+    "masterpiece": false
+  },
+  {
+    "name": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "year": 1939,
+    "masterpiece": false
+  },
+  {
+    "name": "Soldados de Salamina",
+    "author": "Javier Cercas",
+    "year": 2001,
+    "masterpiece": false
+  },
+  {
+    "name": "Sagarana",
+    "author": "João Guimarães Rosa",
+    "year": 1946,
+    "masterpiece": false
+  },
+  {
+    "name": "Animal Farm",
+    "author": "George Orwell",
+    "year": 1945,
+    "masterpiece": false
+  },
+  {
+    "name": "El señor presidente",
+    "author": "Miguel Ángel Asturias",
+    "year": 1946,
+    "masterpiece": false
+  },
+  {
+    "name": "A Paixão Segundo G.H.",
+    "author": "Clarice Lispector",
+    "year": 1964,
+    "masterpiece": false
+  },
+  {
+    "name": "The Trial",
+    "author": "Franz Kafka",
+    "year": 1925,
+    "masterpiece": false
+  },
+  {
+    "name": "Doce cuentos peregrinos",
+    "author": "Gabriel García Márquez",
+    "year": 1992,
+    "masterpiece": false
+  },
+  {
+    "name": "Dona Flor e Seus Dois Maridos",
+    "author": "Jorge Amado",
+    "year": 1966,
+    "masterpiece": false
+  },
+  {
+    "name": "The Catch-22",
+    "author": "Joseph Heller",
+    "year": 1961,
+    "masterpiece": false
+  },
+  {
+    "name": "La familia de Pascual Duarte",
+    "author": "Camilo José Cela",
+    "year": 1942,
+    "masterpiece": false
+  },
+  {
+    "name": "Felicidade Clandestina",
+    "author": "Clarice Lispector",
+    "year": 1971,
+    "masterpiece": false
+  },
+  {
+    "name": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "masterpiece": false
+  },
+  {
+    "name": "Cari Mora",
+    "author": "Thomas Harris",
+    "year": 2019,
+    "masterpiece": false
+  }
+]

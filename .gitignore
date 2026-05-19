@@ -1,0 +1,39 @@
+# Certificates and private keys
+certs/
+!certs/.gitkeep
+ 
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+ 
+# Test binary
+*.test
+ 
+# Output of coverage
+*.out
+ 
+# Dependency directories
+vendor/
+ 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+ 
+.env
+.env.local
+.env.local
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Build output
+bin/
+dist/
