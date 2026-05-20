@@ -1,7 +1,7 @@
 # ============================================
 # Stage 1: Build
 # ============================================
-FROM golang:1.25-alpine AS builder
+FROM golang:1.23-alpine AS builder
 
 # Instalar dependências necessárias
 RUN apk add --no-cache git ca-certificates tzdata
@@ -25,7 +25,7 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build \
 # ============================================
 # Stage 2: Runtime
 # ============================================
-FROM alpine:latest
+FROM alpine:3.20
 
 # Instalar dependências de runtime
 RUN apk --no-cache add ca-certificates tzdata openssl
@@ -47,11 +47,11 @@ RUN mkdir -p certs && \
       -days 365 -nodes -subj "/CN=localhost" 2>/dev/null || true
 
 # Expor porta
-EXPOSE 8443
+EXPOSE 8080
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-    CMD wget --quiet --tries=1 --spider https://localhost:8443/books || exit 1
+    CMD wget --quiet --tries=1 --spider http://localhost:8080/health || exit 1
 
 # Executar aplicação
 CMD ["./api"]
