@@ -228,6 +228,38 @@ curl http://localhost:8080/health
 }
 ```
 
+## QA Testing - Postman Collection
+
+Para testar todos os endpoints da API de forma estruturada:
+
+### Importar a Collection
+
+1. Abra o Postman
+2. Clique em "Import" → "File"
+3. Selecione `postman/Books-API.postman_collection.json`
+4. Selecione `postman/Books-API.postman_environment.json`
+
+### Configurar Ambiente
+
+Após importar, certifique-se de:
+1. Selecionar o environment "Production"
+2. Verificar a variável `baseUrl`: `http://localhost:8080/api/v1`
+3. Garantir que a API está rodando: `docker compose up`
+
+### Testes Inclusos
+
+- **00 - Health Check:** Verifica se a API está respondendo
+- **01 - List All Books:** Testa listagem completa
+- **02 - Create Book:** Cria um novo livro
+- **03 - Get Book By ID:** Obtém um livro específico
+- **04 - Update Book:** Atualiza um livro existente
+- **05 - Delete Book:** Remove um livro
+- **06 - Get Non-Existent Book:** Testa edge case (404)
+- **07 - Create Book with Invalid Data:** Testa validação (400)
+- **08 - List Books by Author Filter:** Testa filtros
+
+Execute os testes na ordem apresentada para garantir fluxo correto (criar um livro antes de consultá-lo).
+
 ## Monitoramento
 
 ### Prometheus Metrics
